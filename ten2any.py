@@ -30,6 +30,7 @@ def ten2any_2(n,b=62):
         # return Alphabet[index]
         print(Alphabet[index])
 
+
 ten2any(10)
 ten2any_2(11)
 
