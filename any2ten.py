@@ -16,4 +16,5 @@ def any2ten(s,base=62):
     print("result:",n)
 
 
+
 any2ten('1234')
