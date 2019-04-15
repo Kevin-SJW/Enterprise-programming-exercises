@@ -48,7 +48,7 @@ public class FileIpCountSort {
             Collections.sort(list_Data, new Comparator<Map.Entry<String, Integer>>() {
                 @Override
                 public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-                    return o2.getValue() - o1.getValue();
+                    return o2.getValue().compareTo(o1.getValue());
 
                 }
             });
@@ -71,10 +71,10 @@ public class FileIpCountSort {
             FileWriter writer = new FileWriter(writeName);
             BufferedWriter out = new BufferedWriter(writer);
 
-            for (Map.Entry<String, Integer> list_datum : list_Data) {
-                if (list_datum.getKey() != null) {
+            for (Map.Entry<String, Integer> entry : list_Data) {
+                if (entry.getKey() != null) {
                     /*\r\n即为换行*/
-                    out.write(list_datum.getKey() + "\t" + list_datum.getValue() + "\r\n");
+                    out.write(entry.getKey() + "\t" + entry.getValue() + "\r\n");
                     /*把缓存区内容压入文件*/
                     out.flush();
 
