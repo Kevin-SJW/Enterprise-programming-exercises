@@ -80,7 +80,9 @@ public class FileIpCountSort {
 
                 }
             }
+            out.close();
         } catch (IOException e) {
+            System.out.println("写文件出错");
             e.printStackTrace();
         }
     }
