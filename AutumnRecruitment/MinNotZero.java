@@ -46,7 +46,7 @@ public class MinNotZero {
                 newList.add(temp);
             }
         }
-        
+
         arr = newList;
         return min;
     }

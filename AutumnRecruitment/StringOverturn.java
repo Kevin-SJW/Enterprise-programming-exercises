@@ -10,6 +10,10 @@ import java.util.Stack;
  * @Description TODO
  * @Date 2019/9/4 20:37
  * @Created by 14241
+ *
+ * ((ur)oi)
+ *
+ * iour
  */
 public class StringOverturn {
     public static void main(String[] args) {
@@ -17,7 +21,7 @@ public class StringOverturn {
         String input = read.nextLine();
         System.out.println(solution(input));
     }
-
+    // ((ur)oi)
     private static String solution(String input) {
         Stack<Character> stack = new Stack<Character>();
         for (int i = 0; i < input.length(); i++) {

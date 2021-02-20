@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
- * @Classname DoNotBlocked
+ * @Classname DoNotBlocked3
  * @Description TODO
  * @Date 2020/9/12 19:53
  * @Created by Administrator
@@ -21,7 +21,7 @@ import java.util.LinkedList;
  * 被速度为7,8的仓鼠，但会堵住speed[0],speed[1],speed[2]和speed[3]对应的仓鼠
  * 提示：0<=speed[i],speed.length<=10^5
  */
-public class DoNotBlocked2 {
+public class DoNotBlocked {
     public static void main(String[] args) {
         //        int[] speed = {4, 5, 3, 2, 8, 7, 1};
         int[] speed1 = {4, 5, 5, 3, 2, 8, 7};

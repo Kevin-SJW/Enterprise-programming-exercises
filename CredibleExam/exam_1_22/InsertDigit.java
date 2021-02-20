@@ -1,4 +1,4 @@
-package ClassificationTraining.huaweiMiddle;
+package CredibleExam.exam_1_22;
 
 import java.util.ArrayList;
 import java.util.Collections;

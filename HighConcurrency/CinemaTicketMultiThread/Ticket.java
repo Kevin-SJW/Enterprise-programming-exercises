@@ -1,4 +1,4 @@
-package HighConcurrency.CinemaTicket;
+package HighConcurrency.CinemaTicketMultiThread;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -26,6 +26,10 @@ public class Ticket {
     //放映时间
     private LocalDateTime datetime;
 
+
+    //售票窗口
+//    private String window;
+
     private Ticket(){
 
     }
@@ -38,7 +42,15 @@ public class Ticket {
         this.filmName = filmName;
         this.price = price;
         this.datetime = datetime;
+//        this.window=window;
     }
+//    public String getWindow() {
+//        return window;
+//    }
+//
+//    public void setWindow(String window) {
+//        this.window = window;
+//    }
 
     public int getTicketId() {
         return ticketId;

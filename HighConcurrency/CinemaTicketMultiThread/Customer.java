@@ -1,4 +1,4 @@
-package HighConcurrency.CinemaTicket;
+package HighConcurrency.CinemaTicketMultiThread;
 
 /**
  * 通过卖票程序读懂多线程--顾客类

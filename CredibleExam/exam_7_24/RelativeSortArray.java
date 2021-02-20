@@ -1,4 +1,4 @@
-package CredibleExam.exam_3_20;
+package CredibleExam.exam_7_24;
 
 import java.util.*;
 

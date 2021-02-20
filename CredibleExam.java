@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * @Classname CredibleExam
  * @Description TODO
